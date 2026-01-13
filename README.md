@@ -3,72 +3,88 @@
 Welcome to the **High-Intensity DSA Crash Course**. This repository is designed to teach you the most critical SDE-2 interview patterns in a compressed format.
 
 **Role**: Senior Staff Engineer at FAANG.
-**Goal**: Master the 8 pillars of DSA efficiently.
+**Goal**: Master the 12 pillars of DSA efficiently.
 
 ---
 
 ## 📚 Curriculum & Topic Modules
 
-Each module comes with a dedicated guide explaining the **Theory**, **SDE-2 Pattern**, **Challenge**, and **Solution**.
+Each module comes with a dedicated guide.
 
 ### 1. [Arrays & Hashing](src/main/java/com/dsa/arrays/ArraysAndHashing.md)
 
-- **Focus**: Prefix Sums, Difference Arrays, HashMaps.
-- **Pattern**: Transforming O(n²) range queries into O(1).
+- **Focus**: Prefix Sums, HashMaps.
 - **Challenge**: `Subarray Sum Equals K`.
 
 ### 2. [Two Pointers & Sliding Window](src/main/java/com/dsa/slidingwindow/SlidingWindow.md)
 
 - **Focus**: Dynamic Window Sizing.
-- **Pattern**: Expand (`right`) -> Check -> Shrink (`left`).
 - **Challenge**: `Longest Repeating Character Replacement`.
 
 ### 3. [Stack & Queue](src/main/java/com/dsa/stack/Stack.md)
 
 - **Focus**: Monotonic Stacks.
-- **Pattern**: Finding "Next Greater Element" in O(n).
 - **Challenge**: `Daily Temperatures`.
 
 ### 4. [Linked List](src/main/java/com/dsa/linkedlist/LinkedList.md)
 
-- **Focus**: Fast & Slow Pointers (Tortoise & Hare).
-- **Pattern**: Cycle Detection, Middle Finding, List Reversal.
+- **Focus**: Fast & Slow Pointers.
 - **Challenge**: `Reorder List`.
 
-### 5. [Trees & Tries](src/main/java/com/dsa/trees/Trees.md)
+### 5. [Trees](src/main/java/com/dsa/trees/Trees.md)
 
-- **Focus**: DFS/BFS Variants, BST Properties.
-- **Pattern**: Using `Left < Root < Right` to prune search space.
-- **Challenge**: `Lowest Common Ancestor of BST`.
+- **Focus**: DFS/BFS, BST Properties.
+- **Challenge**: `Lowest Common Ancestor (BST)`.
 
-### 6. [Heaps & Intervals](src/main/java/com/dsa/heaps/Heaps.md)
+### 6. [Heaps](src/main/java/com/dsa/heaps/Heaps.md)
 
 - **Focus**: Priority Queues, Greedy.
-- **Pattern**: Processing most urgent tasks first (Max-Heap).
 - **Challenge**: `Task Scheduler`.
 
 ### 7. [Graphs](src/main/java/com/dsa/graphs/Graphs.md)
 
-- **Focus**: Disjoint Sets, Connectivity.
-- **Pattern**: Union-Find for "Connected Components".
+- **Focus**: Union-Find, Connectivity.
 - **Challenge**: `Number of Provinces`.
 
 ### 8. [Dynamic Programming](src/main/java/com/dsa/dp/DynamicProgramming.md)
 
-- **Focus**: Optimization, 1D DP.
-- **Pattern**: Subproblems + Memoization.
+- **Focus**: 1D DP.
 - **Challenge**: `Coin Change`.
+
+### 9. [Graphs II](src/main/java/com/dsa/graphs/GraphsII.md)
+
+- **Focus**: Dependencies, DAGs.
+- **Pattern**: Kahn's Algorithm (Topological Sort).
+- **Challenge**: `Course Schedule II`.
+
+### 10. [Advanced Optimization](src/main/java/com/dsa/optimization/Optimization.md)
+
+- **Focus**: Search Space Reduction.
+- **Pattern**: Binary Search on Answer.
+- **Challenge**: `Koko Eating Bananas`.
+
+### 11. [Tries](src/main/java/com/dsa/tries/Trie.md)
+
+- **Focus**: String Prefix Operations.
+- **Pattern**: TrieNode with `children[26]`.
+- **Challenge**: `Implement Trie`.
+
+### 12. [2D Dynamic Programming](src/main/java/com/dsa/dp/2DDP.md)
+
+- **Focus**: Multi-state decision making.
+- **Pattern**: Grid Transitions.
+- **Challenge**: `Longest Common Subsequence`.
+
+### [Practice Drills](DRILLS.md)
+
+A list of 24 extra problems to reinforce these patterns.
 
 ---
 
 ## 🚀 How to Run Code
-
-All solutions are self-contained Java files with `main` methods.
 
 ```bash
 # Example: Running the Arrays Module
 javac src/main/java/com/dsa/arrays/SubarraySum.java
 java -cp src/main/java com.dsa.arrays.SubarraySum
 ```
-
-Checking out this repo gives you a complete toolkit for your SDE-2 loops. **Good luck.**
