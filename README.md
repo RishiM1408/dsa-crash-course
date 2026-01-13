@@ -100,7 +100,7 @@ Each module comes with a dedicated guide.
 
 ### [Practice Drills](DRILLS.md)
 
-A list of 32 extra problems to reinforce these patterns.
+A list of 80+ extra problems to reinforce these patterns.
 
 ### [Golden List & Checklist](GOLDEN_LIST.md)
 
