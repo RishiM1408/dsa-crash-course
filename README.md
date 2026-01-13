@@ -75,24 +75,24 @@ Each module comes with a dedicated guide.
 - **Pattern**: Grid Transitions.
 - **Challenge**: `Longest Common Subsequence`.
 
-### 13. System Design (LRU Cache)
+### 13. [System Design (LRU Cache)](src/main/java/com/dsa/design/SystemDesign.md)
 
 - **Focus**: HashMap + Doubly Linked List.
 - **Challenge**: `LRU Cache`.
 
-### 14. Monotonic Queue (Deque)
+### 14. [Monotonic Queue (Deque)](src/main/java/com/dsa/deque/MonotonicQueue.md)
 
 - **Focus**: Sliding Window Optimization.
 - **Pattern**: Decreasing Deque.
 - **Challenge**: `Sliding Window Maximum`.
 
-### 15. Backtracking
+### 15. [Backtracking](src/main/java/com/dsa/backtracking/Backtracking.md)
 
 - **Focus**: State Pruning.
 - **Pattern**: Choose-Explore-Unchoose.
 - **Challenge**: `Permutations`.
 
-### 16. Bit Manipulation
+### 16. [Bit Manipulation](src/main/java/com/dsa/bits/BitManipulation.md)
 
 - **Focus**: XOR Properties.
 - **Pattern**: Low-level Optimization.

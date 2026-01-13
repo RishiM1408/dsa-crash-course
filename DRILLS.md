@@ -61,3 +61,23 @@ This list contains 2 additional problems for every topic to reinforce the patter
 
 - **Unique Paths** (Medium) - [LeetCode 62]
 - **Edit Distance** (Medium) - [LeetCode 72]
+
+## 13. System Design (LRU/LFU)
+
+- **LFU Cache** (Hard) - [LeetCode 460]
+- **Design Browser History** (Medium) - [LeetCode 1472] (Stacks/DLL)
+
+## 14. Monotonic Queue (Deque)
+
+- **Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit** (Medium) - [LeetCode 1438]
+- **Max Value of Equation** (Hard) - [LeetCode 1499]
+
+## 15. Backtracking
+
+- **Subsets** (Medium) - [LeetCode 78]
+- **Combination Sum** (Medium) - [LeetCode 39]
+
+## 16. Bit Manipulation
+
+- **Number of 1 Bits** (Easy) - [LeetCode 191] (Hamming Weight)
+- **Counting Bits** (Easy) - [LeetCode 338] (DP + Bits)
