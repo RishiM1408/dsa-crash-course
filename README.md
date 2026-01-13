@@ -75,9 +75,36 @@ Each module comes with a dedicated guide.
 - **Pattern**: Grid Transitions.
 - **Challenge**: `Longest Common Subsequence`.
 
+### 13. System Design (LRU Cache)
+
+- **Focus**: HashMap + Doubly Linked List.
+- **Challenge**: `LRU Cache`.
+
+### 14. Monotonic Queue (Deque)
+
+- **Focus**: Sliding Window Optimization.
+- **Pattern**: Decreasing Deque.
+- **Challenge**: `Sliding Window Maximum`.
+
+### 15. Backtracking
+
+- **Focus**: State Pruning.
+- **Pattern**: Choose-Explore-Unchoose.
+- **Challenge**: `Permutations`.
+
+### 16. Bit Manipulation
+
+- **Focus**: XOR Properties.
+- **Pattern**: Low-level Optimization.
+- **Challenge**: `Single Number`.
+
 ### [Practice Drills](DRILLS.md)
 
-A list of 24 extra problems to reinforce these patterns.
+A list of 32 extra problems to reinforce these patterns.
+
+### [Golden List & Checklist](GOLDEN_LIST.md)
+
+Review this before every interview.
 
 ---
 
