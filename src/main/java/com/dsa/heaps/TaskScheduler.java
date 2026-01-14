@@ -6,6 +6,7 @@ import java.util.PriorityQueue;
 /**
  * Topic: Heaps & Intervals
  * Problem: Task Scheduler
+ * LeetCode: 621
  * Complexity: O(n) Time | O(1) Space
  */
 public class TaskScheduler {

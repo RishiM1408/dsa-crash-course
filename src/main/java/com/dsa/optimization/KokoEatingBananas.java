@@ -3,6 +3,7 @@ package com.dsa.optimization;
 /**
  * Topic: Advanced Optimization
  * Problem: Koko Eating Bananas
+ * LeetCode: 875
  * Pattern: Binary Search on Answer Space
  * Complexity: O(n * log(maxPile)) Time | O(1) Space
  */

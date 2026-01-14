@@ -6,6 +6,7 @@ import java.util.Map;
 /**
  * Topic: Two Pointers & Sliding Window
  * Problem: Longest Repeating Character Replacement
+ * LeetCode: 424
  * Complexity: O(n) Time | O(1) Space (since only 26 uppercase chars)
  */
 public class LongestRepeatingCharacterReplacement {

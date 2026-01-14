@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * Topic: Dynamic Programming (1D)
  * Problem: Coin Change
+ * LeetCode: 322
  * Complexity: O(amount * n) Time | O(amount) Space
  */
 public class CoinChange {

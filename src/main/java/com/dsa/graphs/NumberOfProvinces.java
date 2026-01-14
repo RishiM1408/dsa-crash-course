@@ -3,6 +3,7 @@ package com.dsa.graphs;
 /**
  * Topic: Graphs (Union-Find)
  * Problem: Number of Connected Components (Number of Provinces)
+ * LeetCode: 547
  * Complexity: O(n^2) Time | O(n) Space
  */
 public class NumberOfProvinces {
