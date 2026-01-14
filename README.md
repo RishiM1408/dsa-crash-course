@@ -2,7 +2,6 @@
 
 Welcome to the **High-Intensity DSA Crash Course**. This repository is designed to teach you the most critical SDE-2 interview patterns in a compressed format.
 
-**Role**: Senior Staff Engineer at FAANG.
 **Goal**: Master the 12 pillars of DSA efficiently.
 
 ---
