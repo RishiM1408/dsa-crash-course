@@ -2,7 +2,7 @@
 
 Welcome to the **High-Intensity DSA Crash Course**. This repository is designed to teach you the most critical SDE-2 interview patterns in a compressed format.
 
-**Goal**: Master the 12 pillars of DSA efficiently.
+**Goal**: Master the 16 pillars of DSA efficiently.
 
 ---
 
