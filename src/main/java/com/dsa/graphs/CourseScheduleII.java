@@ -1,92 +1,63 @@
 package com.dsa.graphs;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-import java.util.Arrays;
+import java.util.*;
 
 /**
- * Topic: Graphs II (Topological Sort)
- * Problem: Course Schedule II
- * LeetCode: 210
- * Patter: Kahn's Algorithm (BFS)
- * Complexity: O(V + E) Time | O(V + E) Space
+ * LeetCode 210: Course Schedule II
+ *
+ * Pattern: Kahn's Algorithm
+ * Same as Course Schedule I but return the order.
  */
 public class CourseScheduleII {
 
-    /**
-     * Returns the ordering of courses to take to finish all courses.
-     * 
-     * Logic (Kahn's Algorithm):
-     * 1. Build Adjacency List (Graph) and Indegree Array.
-     * Indegree = number of prerequisites for a course.
-     * 2. Add all nodes with Indegree == 0 to a Queue (Ready to take).
-     * 3. Process Queue:
-     * - Add current node to Result.
-     * - For each neighbor, decrement Indegree.
-     * - If neighbor's Indegree becomes 0, add to Queue.
-     * 4. If result size != numCourses, there is a Cycle (Impossible).
-     */
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        List<List<Integer>> adj = new ArrayList<>();
         int[] indegree = new int[numCourses];
+        List<List<Integer>> adj = new ArrayList<>();
 
-        for (int i = 0; i < numCourses; i++) {
+        for (int i = 0; i < numCourses; i++)
             adj.add(new ArrayList<>());
+
+        for (int[] p : prerequisites) {
+            adj.get(p[1]).add(p[0]);
+            indegree[p[0]]++;
         }
 
-        // Build Graph
-        for (int[] pr : prerequisites) {
-            int course = pr[0];
-            int prereq = pr[1];
-            adj.get(prereq).add(course);
-            indegree[course]++;
-        }
-
-        // Add courses with no prereqs to queue
         Queue<Integer> q = new LinkedList<>();
         for (int i = 0; i < numCourses; i++) {
-            if (indegree[i] == 0) {
+            if (indegree[i] == 0)
                 q.offer(i);
-            }
         }
 
         int[] result = new int[numCourses];
         int index = 0;
 
         while (!q.isEmpty()) {
-            int current = q.poll();
-            result[index++] = current;
+            int curr = q.poll();
+            result[index++] = curr;
 
-            for (int neighbor : adj.get(current)) {
+            for (int neighbor : adj.get(curr)) {
                 indegree[neighbor]--;
-                if (indegree[neighbor] == 0) {
+                if (indegree[neighbor] == 0)
                     q.offer(neighbor);
-                }
             }
         }
 
-        // Check for cycle
-        if (index != numCourses) {
-            return new int[0];
-        }
-
-        return result;
+        return index == numCourses ? result : new int[0];
     }
 
     public static void main(String[] args) {
         CourseScheduleII solver = new CourseScheduleII();
 
-        // 4 courses.
-        // 1 depends on 0.
-        // 2 depends on 0.
-        // 3 depends on 1 and 2.
-        int numCourses = 4;
-        int[][] prerequisites = { { 1, 0 }, { 2, 0 }, { 3, 1 }, { 3, 2 } };
+        // Test Case 1: 2, [[1,0]] -> [0,1]
+        int[][] p1 = { { 1, 0 } };
+        int[] res1 = solver.findOrder(2, p1);
+        System.out.println("Test Case 1: " + (Arrays.toString(res1).equals("[0, 1]") ? "PASS" : "FAIL"));
 
-        int[] order = solver.findOrder(numCourses, prerequisites);
-        System.out.println("Course Order: " + Arrays.toString(order));
-        // Expected: [0, 1, 2, 3] or [0, 2, 1, 3]
+        // Test Case 2: 4, [[1,0],[2,0],[3,1],[3,2]] -> [0,1,2,3] or [0,2,1,3]
+        int[][] p2 = { { 1, 0 }, { 2, 0 }, { 3, 1 }, { 3, 2 } };
+        int[] res2 = solver.findOrder(4, p2);
+        // Valid output starts with 0 and ends with 3. 1 and 2 in between.
+        System.out.println("Test Case 2: " + (res2.length == 4 && res2[0] == 0 && res2[3] == 3 ? "PASS"
+                : "FAIL (Got " + Arrays.toString(res2) + ")"));
     }
 }
