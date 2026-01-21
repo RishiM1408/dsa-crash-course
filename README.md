@@ -1,4 +1,4 @@
-# 🎓 DSA Crash Course (SDE-2)
+# DSA Crash Course (SDE-2)
 
 Welcome to the **High-Intensity DSA Crash Course**. This repository is designed to teach you the most critical SDE-2 interview patterns in a compressed format.
 
@@ -6,7 +6,15 @@ Welcome to the **High-Intensity DSA Crash Course**. This repository is designed 
 
 ---
 
-## 📚 Curriculum & Topic Modules
+<div align="center">
+  <h3>🔥 COMPANY-WISE QUESTION BANK 🔥</h3>
+  <p>Target your preparation for Amazon, Google, Rippling, Sprinklr, etc.</p>
+  <a href="COMPANY_WISE_QUESTIONS.md"><b>👉 CLICK HERE TO ACCESS THE GUIDE 👈</b></a>
+</div>
+
+---
+
+## Curriculum & Topic Modules
 
 Each module comes with a dedicated guide.
 
@@ -220,17 +228,13 @@ Each module comes with a dedicated guide.
 - [Easy] **Reverse Bits** (LeetCode 190) - _Bit Shifting_
 - [Medium] **Sum of Two Integers** (LeetCode 371) - _Addition without +_
 
-### [Company-Wise Question Bank](COMPANY_WISE_QUESTIONS.md)
-
-**Focus**: Target your preparation for Amazon, Google, Rippling, Sprinklr, etc.
-
 ### [Golden List & Checklist](GOLDEN_LIST.md)
 
 Review this before every interview.
 
 ---
 
-## 🚀 How to Run Code
+## How to Run Code
 
 ```bash
 # Example: Running the Arrays Module
