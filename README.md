@@ -16,21 +16,21 @@ Welcome to the **High-Intensity DSA Crash Course**. This repository is designed 
 
 ## 🎯 Role-Based Focus Guide
 
-### 👶 SDE-1 (Junior Engineer)
+### 👶 SDE-1 (Associate Software Engineer)
 
 **Focus**: Problem Solving & Clean Code.
 
 - **Must-Know Topics**: Arrays, Strings, HashMaps, Linked Lists, Stacks, Basic Trees (Recursion).
 - **Expectation**: Solve generic problems (e.g., Valid Parentheses, Two Sum) quickly and bugs-free.
 
-### 🧑‍💻 SDE-2 (Senior Engineer)
+### 🧑‍💻 SDE-2 (Software Engineer)
 
 **Focus**: Optimization & Breadth.
 
 - **Must-Know Topics**: DP (1D/2D), Graphs (BFS/DFS), Heaps, Sliding Window, Tries.
 - **Expectation**: Identify the optimal pattern (e.g., "This is a Sliding Window problem") immediately. Handle edge cases.
 
-### 🧙‍♂️ SDE-3 (Staff/Principal Engineer)
+### 🧙‍♂️ SDE-3 (Senior Software Engineer)
 
 **Focus**: System Design & Advanced Algorithms.
 
