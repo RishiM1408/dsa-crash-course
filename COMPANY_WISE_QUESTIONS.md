@@ -225,11 +225,11 @@ Use this to prioritize your revision based on your target company.
 
 #### 🔥 Top DSA Questions
 
-| Priority | Pattern          | Question / Link                                                                                                                                                                                                      |
-| :------- | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **High** | **Arrays**       | [Two Sum](src/main/java/com/dsa/arrays/TwoSum.java) (if exists, else [3Sum](src/main/java/com/dsa/arrays/ThreeSum.java)), [Product of Array Except Self](src/main/java/com/dsa/arrays/ProductOfArrayExceptSelf.java) |
-| **High** | **Strings**      | [Longest Substring Without Repeating Characters](src/main/java/com/dsa/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java)                                                                                |
-| **High** | **Linked Lists** | [Add Two Numbers](src/main/java/com/dsa/linkedlist/AddTwoNumbers.java)                                                                                                                                               |
+| Priority | Pattern          | Question / Link                                                                                                                                                                                     |
+| :------- | :--------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **High** | **Arrays**       | [Two Sum](src/main/java/com/dsa/arrays/TwoSum.java), [3Sum](src/main/java/com/dsa/arrays/ThreeSum.java), [Product of Array Except Self](src/main/java/com/dsa/arrays/ProductOfArrayExceptSelf.java) |
+| **High** | **Strings**      | [Longest Substring Without Repeating Characters](src/main/java/com/dsa/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java)                                                               |
+| **High** | **Linked Lists** | [Add Two Numbers](src/main/java/com/dsa/linkedlist/AddTwoNumbers.java)                                                                                                                              |
 
 #### 🏗️ System Design (HLD & LLD)
 
