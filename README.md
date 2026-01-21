@@ -126,7 +126,7 @@ Each module comes with a dedicated guide.
 - [Medium] **Course Schedule II** (LeetCode 210) - _Order Return_
 - [Hard] **Longest Increasing Path in a Matrix** (LeetCode 329) - _DFS + Memoization (Topo-like)_
 
-### 10. [Advanced Optimization](src/main/java/com/dsa/optimization/Optimization.md)
+### 10. [Advanced Optimization](src/main/java/com/dsa/binarysearch/BinarySearch.md)
 
 - **Focus**: Search Space Reduction.
 - **Pattern**: Binary Search on Answer.
@@ -167,7 +167,7 @@ Each module comes with a dedicated guide.
 - [Medium] **Target Sum** (LeetCode 494) - _Knapsack Variation_
 - [Hard] **Regular Expression Matching** (LeetCode 10) - _Complex State_
 
-### 13. [System Design (LRU Cache)](src/main/java/com/dsa/design/SystemDesign.md)
+### 13. [System Design (LRU Cache)](src/main/java/com/dsa/systemdesign/SystemDesign.md)
 
 - **Focus**: HashMap + Doubly Linked List.
 - **Challenge**: `LRU Cache`.
@@ -206,7 +206,7 @@ Each module comes with a dedicated guide.
 - [Hard] **N-Queens** (LeetCode 51) - _Constraint validation_
 - [Medium] **Palindrome Partitioning** (LeetCode 131) - _String Partition_
 
-### 16. [Bit Manipulation](src/main/java/com/dsa/bits/BitManipulation.md)
+### 16. [Bit Manipulation](src/main/java/com/dsa/bitmanipulation/BitManipulation.md)
 
 - **Focus**: XOR Properties.
 - **Pattern**: Low-level Optimization.
@@ -219,6 +219,10 @@ Each module comes with a dedicated guide.
 - [Easy] **Missing Number** (LeetCode 268) - _XOR vs Sum_
 - [Easy] **Reverse Bits** (LeetCode 190) - _Bit Shifting_
 - [Medium] **Sum of Two Integers** (LeetCode 371) - _Addition without +_
+
+### [Company-Wise Question Bank](COMPANY_WISE_QUESTIONS.md)
+
+**Focus**: Target your preparation for Amazon, Google, Rippling, Sprinklr, etc.
 
 ### [Golden List & Checklist](GOLDEN_LIST.md)
 
