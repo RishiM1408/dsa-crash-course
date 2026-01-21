@@ -29,3 +29,5 @@ Whenever you see "Optimization" (Min/Max) + "Choices" + "Overlapping Subproblems
 ## 💻 Code Solution
 
 See [CoinChange.java](CoinChange.java) for the implementation.
+
+> **Related**: For Combinatorics-based DP (e.g., nCr), refer to the [Mathematics Module](../math/Mathematics.md#foundational-topics).

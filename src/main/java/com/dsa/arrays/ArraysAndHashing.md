@@ -44,3 +44,5 @@ Instead of re-calculating sums, we use the equation:
 ## 💻 Code Solution
 
 See [SubarraySum.java](SubarraySum.java) for the implementation.
+
+> **Related**: For problems involving divisibility (e.g., Subarray Sums Divisible by K), refer to the [Mathematics Module](../math/Mathematics.md#foundational-topics) for Modulo properties.
