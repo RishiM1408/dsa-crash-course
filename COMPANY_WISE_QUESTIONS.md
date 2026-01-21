@@ -58,12 +58,12 @@ Use this to prioritize your revision based on your target company.
 
 #### 🔥 Top DSA Questions
 
-| Priority | Pattern          | Question / Link                                                                                                                                                                         |
-| :------- | :--------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **High** | **Trees**        | [Binary Tree Level Order Traversal](src/main/java/com/dsa/trees/BinaryTreeLevelOrderTraversal.java), [Invert Binary Tree](src/main/java/com/dsa/trees/InvertBinaryTree.java)            |
-| **High** | **Strings**      | [Reverse Words using Stack](src/main/java/com/dsa/stack/EvaluateReversePolishNotation.java) (closest match), [String Compression](src/main/java/com/dsa/strings/StringCompression.java) |
-| **High** | **Linked Lists** | [Copy List with Random Pointer](src/main/java/com/dsa/linkedlist/CopyListWithRandomPointer.java), [Merge k Sorted Lists](src/main/java/com/dsa/linkedlist/MergeKSortedLists.java)       |
-| **Med**  | **Matrix**       | [Spiral Matrix](src/main/java/com/dsa/matrix/SpiralMatrix.java), [Search a 2D Matrix](src/main/java/com/dsa/matrix/SearchA2DMatrix.java)                                                |
+| Priority | Pattern          | Question / Link                                                                                                                                                                   |
+| :------- | :--------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **High** | **Trees**        | [Binary Tree Level Order Traversal](src/main/java/com/dsa/trees/BinaryTreeLevelOrderTraversal.java), [Invert Binary Tree](src/main/java/com/dsa/trees/InvertBinaryTree.java)      |
+| **High** | **Strings**      | [Reverse Words using Stack](src/main/java/com/dsa/strings/ReverseWordsInString.java), [String Compression](src/main/java/com/dsa/strings/StringCompression.java)                  |
+| **High** | **Linked Lists** | [Copy List with Random Pointer](src/main/java/com/dsa/linkedlist/CopyListWithRandomPointer.java), [Merge k Sorted Lists](src/main/java/com/dsa/linkedlist/MergeKSortedLists.java) |
+| **Med**  | **Matrix**       | [Spiral Matrix](src/main/java/com/dsa/matrix/SpiralMatrix.java), [Search a 2D Matrix](src/main/java/com/dsa/matrix/SearchA2DMatrix.java)                                          |
 
 #### 🏗️ System Design (HLD & LLD)
 
@@ -163,11 +163,11 @@ Use this to prioritize your revision based on your target company.
 
 #### 🔥 Top DSA Questions
 
-| Priority | Pattern      | Question / Link                                                                                                                                    |
-| :------- | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **High** | **Design**   | [Design Snake Game](src/main/java/com/dsa/design/SnakeGame.java), [Design Leaderboard](src/main/java/com/dsa/design/DesignLeaderboard.java) (mock) |
-| **High** | **HashMaps** | [Rank Teams by Votes](src/main/java/com/dsa/sorting/RankTeamsByVotes.java), [Group Anagrams](src/main/java/com/dsa/arrays/GroupAnagrams.java)      |
-| **High** | **Heaps**    | [Top K Frequent Elements](src/main/java/com/dsa/heaps/TopKFrequentElements.java)                                                                   |
+| Priority | Pattern      | Question / Link                                                                                                                               |
+| :------- | :----------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
+| **High** | **Design**   | [Design Snake Game](src/main/java/com/dsa/design/SnakeGame.java), [Design Leaderboard](src/main/java/com/dsa/design/DesignLeaderboard.java)   |
+| **High** | **HashMaps** | [Rank Teams by Votes](src/main/java/com/dsa/sorting/RankTeamsByVotes.java), [Group Anagrams](src/main/java/com/dsa/arrays/GroupAnagrams.java) |
+| **High** | **Heaps**    | [Top K Frequent Elements](src/main/java/com/dsa/heaps/TopKFrequentElements.java)                                                              |
 
 #### 🏗️ System Design (HLD & LLD)
 
@@ -268,7 +268,7 @@ Use this to prioritize your revision based on your target company.
 | Priority | Pattern          | Question / Link                                                                                                                                                                     |
 | :------- | :--------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **High** | **Linked Lists** | [Add Two Numbers II](src/main/java/com/dsa/linkedlist/AddTwoNumbersII.java), [Intersection of Two Linked Lists](src/main/java/com/dsa/linkedlist/IntersectionOfTwoLinkedLists.java) |
-| **High** | **Math / Bits**  | [Single Number](src/main/java/com/dsa/bitmanipulation/SingleNumber.java), [Reverse Integer](src/main/java/com/dsa/math/ReverseInteger.java) (mock)                                  |
+| **High** | **Math / Bits**  | [Single Number](src/main/java/com/dsa/bitmanipulation/SingleNumber.java), [Reverse Integer](src/main/java/com/dsa/math/ReverseInteger.java)                                         |
 | **High** | **Trees**        | [Binary Tree Zigzag Level Order Traversal](src/main/java/com/dsa/trees/BinaryTreeZigzagLevelOrderTraversal.java)                                                                    |
 
 #### 🏗️ System Design (HLD & LLD)
