@@ -12,21 +12,21 @@ package com.dsa.math;
 public class PowXN {
 
     public double myPow(double x, int n) {
-        long N = n; // Use long to prevent overflow when n = Integer.MIN_VALUE
-        if (N < 0) {
+        long exponent = n; // Use long to prevent overflow when n = Integer.MIN_VALUE
+        if (exponent < 0) {
             x = 1 / x;
-            N = -N;
+            exponent = -exponent;
         }
 
         double result = 1.0;
         double currentProduct = x;
 
-        while (N > 0) {
-            if ((N % 2) == 1) {
+        while (exponent > 0) {
+            if ((exponent % 2) == 1) {
                 result = result * currentProduct;
             }
             currentProduct = currentProduct * currentProduct;
-            N /= 2;
+            exponent /= 2;
         }
         return result;
     }
