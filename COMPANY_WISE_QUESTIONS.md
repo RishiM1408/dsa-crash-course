@@ -307,11 +307,11 @@ Use this to prioritize your revision based on your target company.
 
 #### 🔥 Top DSA Questions
 
-| Priority | Pattern     | Question / Link                                                                                             |
-| :------- | :---------- | :---------------------------------------------------------------------------------------------------------- |
-| **High** | **Graphs**  | Cheapest Flights Within K Stops                                                                             |
-| **High** | **Strings** | [Palindrome Partitioning](src/main/java/com/dsa/backtracking/PalindromePartitioning.java), Palindrome Pairs |
-| **High** | **BFS**     | Sliding Puzzle, [Alien Dictionary](src/main/java/com/dsa/graphs/AlienDictionary.java)                       |
+| Priority | Pattern     | Question / Link                                                                                                                                                   |
+| :------- | :---------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **High** | **Graphs**  | [Cheapest Flights Within K Stops](src/main/java/com/dsa/graphs/CheapestFlightsWithinKStops.java)                                                                  |
+| **High** | **Strings** | [Palindrome Partitioning](src/main/java/com/dsa/backtracking/PalindromePartitioning.java), [Palindrome Pairs](src/main/java/com/dsa/strings/PalindromePairs.java) |
+| **High** | **BFS**     | [Sliding Puzzle](src/main/java/com/dsa/graphs/SlidingPuzzle.java), [Alien Dictionary](src/main/java/com/dsa/graphs/AlienDictionary.java)                          |
 
 #### 🏗️ System Design (HLD & LLD)
 
@@ -327,11 +327,11 @@ Use this to prioritize your revision based on your target company.
 
 #### 🔥 Top DSA Questions
 
-| Priority | Pattern           | Question / Link                                                                         |
-| :------- | :---------------- | :-------------------------------------------------------------------------------------- |
-| **High** | **Intervals**     | Employee Free Time, [Meeting Rooms II](src/main/java/com/dsa/heaps/MeetingRoomsII.java) |
-| **High** | **Graphs (Grid)** | Shortest Path to Get Food, Walls and Gates                                              |
-| **High** | **Design**        | Design Tic-Tac-Toe                                                                      |
+| Priority | Pattern           | Question / Link                                                                                                                                          |
+| :------- | :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **High** | **Intervals**     | [Employee Free Time](src/main/java/com/dsa/heaps/EmployeeFreeTime.java), [Meeting Rooms II](src/main/java/com/dsa/heaps/MeetingRoomsII.java)             |
+| **High** | **Graphs (Grid)** | [Shortest Path to Get Food](src/main/java/com/dsa/graphs/ShortestPathToGetFood.java), [Walls and Gates](src/main/java/com/dsa/graphs/WallsAndGates.java) |
+| **High** | **Design**        | [Design Tic-Tac-Toe](src/main/java/com/dsa/design/TicTacToe.java)                                                                                        |
 
 #### 🏗️ System Design (HLD & LLD)
 
