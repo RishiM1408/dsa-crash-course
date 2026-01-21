@@ -253,6 +253,19 @@ Each module comes with a dedicated guide.
 - [Easy] **Reverse Bits** (LeetCode 190) - _Bit Shifting_
 - [Medium] **Sum of Two Integers** (LeetCode 371) - _Addition without +_
 
+### 17. [Mathematics](src/main/java/com/dsa/math/Mathematics.md)
+
+- **Focus**: Number Theory, GCD, Primes.
+- **Pattern**: Sieve of Eratosthenes, Euclidean Algo.
+- **Challenge**: `Count Primes`.
+
+#### Practice Drills
+
+- [Medium] **Count Primes** (LeetCode 204) - _Sieve_
+- [Medium] **Pow(x, n)** (LeetCode 50) - _Binary Exponentiation_
+- [Easy] **Greatest Common Divisor of Strings** (LeetCode 1071) - _GCD_
+- [Medium] **Rotate Image** (LeetCode 48) - _Matrix Math_
+
 ### [Golden List & Checklist](GOLDEN_LIST.md)
 
 Review this before every interview.
