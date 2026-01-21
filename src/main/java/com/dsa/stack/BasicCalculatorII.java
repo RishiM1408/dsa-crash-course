@@ -16,10 +16,10 @@ import java.util.*;
 public class BasicCalculatorII {
 
     public int calculate(String s) {
-        if (s == null || s.length() == 0)
+        if (s == null || s.isEmpty())
             return 0;
 
-        Stack<Integer> stack = new Stack<>();
+        Deque<Integer> stack = new ArrayDeque<>();
         int currentNumber = 0;
         char operation = '+';
         int len = s.length();
@@ -39,7 +39,10 @@ public class BasicCalculatorII {
                 } else if (operation == '*') {
                     stack.push(stack.pop() * currentNumber);
                 } else if (operation == '/') {
-                    stack.push(stack.pop() / currentNumber);
+                    if (currentNumber == 0)
+                        stack.push(0); // Handle division by zero
+                    else
+                        stack.push(stack.pop() / currentNumber);
                 }
                 operation = currentChar;
                 currentNumber = 0;

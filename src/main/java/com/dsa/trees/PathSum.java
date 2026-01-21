@@ -1,7 +1,5 @@
 package com.dsa.trees;
 
-import com.dsa.trees.TreeNode;
-
 /**
  * Path Sum (LeetCode 112)
  * 

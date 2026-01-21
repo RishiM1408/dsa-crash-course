@@ -16,13 +16,13 @@ public class MaxDepthNaryTree {
         public Node() {
         }
 
-        public Node(int _val) {
-            val = _val;
+        public Node(int v) {
+            val = v;
         }
 
-        public Node(int _val, List<Node> _children) {
-            val = _val;
-            children = _children;
+        public Node(int v, List<Node> c) {
+            val = v;
+            children = c;
         }
     }
 

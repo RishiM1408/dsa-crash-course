@@ -15,7 +15,8 @@ public class MaxStack {
 
     class Node {
         int val;
-        Node prev, next;
+        Node prev;
+        Node next;
 
         public Node(int val) {
             this.val = val;
@@ -23,7 +24,8 @@ public class MaxStack {
     }
 
     class DLL {
-        Node head, tail;
+        Node head;
+        Node tail;
 
         public DLL() {
             head = new Node(0);

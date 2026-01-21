@@ -15,7 +15,7 @@ public class FindTheCelebrity {
 
     // Mock Relations for local compilation
     private boolean knows(int a, int b) {
-        return true; // Placeholder
+        return false; // Dummy, logic depends on API
     }
 
     public int findCelebrity(int n) {

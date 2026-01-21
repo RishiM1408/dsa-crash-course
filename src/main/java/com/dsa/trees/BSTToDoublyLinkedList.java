@@ -19,14 +19,14 @@ public class BSTToDoublyLinkedList {
         public Node() {
         }
 
-        public Node(int _val) {
-            val = _val;
+        public Node(int v) {
+            val = v;
         }
 
-        public Node(int _val, Node _left, Node _right) {
-            val = _val;
-            left = _left;
-            right = _right;
+        public Node(int v, Node l, Node r) {
+            val = v;
+            left = l;
+            right = r;
         }
     }
 
