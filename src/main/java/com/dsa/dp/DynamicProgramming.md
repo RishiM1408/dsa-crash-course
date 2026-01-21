@@ -3,9 +3,9 @@
 ## 🧠 Theory High-Level
 
 **Dynamic Programming** is an optimization over recursion. It solves complex problems by breaking them into overlapping subproblems and storing the results (**Memoization/Tabulation**) to avoid redundant work.
-SDE-2 interviews focus on **1D DP** (Linear) and **2D DP** (Grid/Knapsack).
+Technical interviews focus on **1D DP** (Linear) and **2D DP** (Grid/Knapsack).
 
-## 🔑 SDE-2 Pattern: Unbounded Knapsack (1D DP)
+## 🔑 Key Interview Pattern: Unbounded Knapsack (1D DP)
 
 Whenever you see "Optimization" (Min/Max) + "Choices" + "Overlapping Subproblems", think DP.
 

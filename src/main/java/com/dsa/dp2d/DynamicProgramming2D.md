@@ -5,7 +5,7 @@
 **2D DP** involves filling a grid (table) where each cell `dp[i][j]` depends on previous cells (left, top, or diagonal).
 Commonly used for problems involving **Two Strings** (LCS, Edit Distance) or **Grids** (Unique Paths).
 
-## 🔑 SDE-2 Pattern: The Decision Table
+## 🔑 Key Interview Pattern: The Decision Table
 
 1.  **Definitions**: What does `dp[i][j]` mean? (e.g., Length of LCS for first `i` chars of S1 and first `j` chars of S2).
 2.  **Transitions**:

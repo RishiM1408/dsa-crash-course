@@ -5,7 +5,7 @@
 **Backtracking** is an algorithmic technique for solving problems recursively by trying to build a solution incrementally.
 If a partial solution cannot possibly be completed to a valid solution, we **abandon** it (backtrack) and try another path.
 
-## 🔑 SDE-2 Pattern: Choose-Explore-Unchoose
+## 🔑 Key Interview Pattern: Choose-Explore-Unchoose
 
 To avoid creating new objects (arrays/lists) at every step, we use a single mutable structure and restore its state.
 

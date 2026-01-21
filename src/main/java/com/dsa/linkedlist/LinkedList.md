@@ -3,9 +3,9 @@
 ## 🧠 Theory High-Level
 
 Linked Lists consist of nodes where each node points to the next. They allow **O(1) insertion/deletion** if the reference is known, but **O(n) access** time.
-SDE-2 questions rarely ask for basic insertion. They ask for **reordering**, **cycle detection**, or **merging**.
+Interview questions rarely ask for basic insertion. They ask for **reordering**, **cycle detection**, or **merging**.
 
-## 🔑 SDE-2 Pattern: Fast & Slow Pointers
+## 🔑 Key Interview Pattern: Fast & Slow Pointers
 
 Also known as the **Tortoise and Hare** algorithm.
 

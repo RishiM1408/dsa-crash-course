@@ -3,9 +3,9 @@
 ## 🧠 Theory High-Level
 
 **Stacks** are LIFO (Last-In, First-Out). **Queues** are FIFO (First-In, First-Out).
-While basic usage (DFS/BFS) is standard, SDE-2 interviews focus on **Monotonic Stacks**.
+While basic usage (DFS/BFS) is standard, Technical interviews focus on **Monotonic Stacks**.
 
-## 🔑 SDE-2 Pattern: Monotonic Stack
+## 🔑 Key Interview Pattern: Monotonic Stack
 
 Used to find the **Next Greater Element** (or Next Smaller) for every element in an array in **O(n)** time.
 

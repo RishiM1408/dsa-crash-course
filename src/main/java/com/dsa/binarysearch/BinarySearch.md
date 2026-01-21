@@ -3,10 +3,10 @@
 ## 🧠 Theory High-Level
 
 **Binary Search** is typically taught for finding an element in a sorted array in **O(log n)**.
-However, for SDE-2 roles, the focus shifts to **Binary Search on Answer**.
+However, for senior engineering roles, the focus shifts to **Binary Search on Answer**.
 This applies when the answer space is monotonic (e.g., if `x` is valid, all `y > x` are also valid, or vice versa). We search for the boundary.
 
-## 🔑 SDE-2 Pattern: Binary Search on Answer Space
+## 🔑 Key Interview Pattern: Binary Search on Answer Space
 
 Instead of searching an array, we search the **Range of Possible Answers** `[Min, Max]`.
 

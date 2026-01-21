@@ -1,6 +1,6 @@
-# DSA Crash Course (SDE-2)
+# DSA Crash Course (SDE-1/SDE-2/SDE-3)
 
-Welcome to the **High-Intensity DSA Crash Course**. This repository is designed to teach you the most critical SDE-2 interview patterns in a compressed format.
+Welcome to the **High-Intensity DSA Crash Course**. This repository is designed to teach you the most critical interview patterns for SDE-1, SDE-2, and SDE-3 roles in a compressed format.
 
 **Goal**: Master the 16 pillars of DSA efficiently.
 
@@ -11,6 +11,31 @@ Welcome to the **High-Intensity DSA Crash Course**. This repository is designed 
   <p>Target your preparation for Amazon, Google, Rippling, Sprinklr, etc.</p>
   <a href="COMPANY_WISE_QUESTIONS.md"><b>👉 CLICK HERE TO ACCESS THE GUIDE 👈</b></a>
 </div>
+
+---
+
+## 🎯 Role-Based Focus Guide
+
+### 👶 SDE-1 (Junior Engineer)
+
+**Focus**: Problem Solving & Clean Code.
+
+- **Must-Know Topics**: Arrays, Strings, HashMaps, Linked Lists, Stacks, Basic Trees (Recursion).
+- **Expectation**: Solve generic problems (e.g., Valid Parentheses, Two Sum) quickly and bugs-free.
+
+### 🧑‍💻 SDE-2 (Senior Engineer)
+
+**Focus**: Optimization & Breadth.
+
+- **Must-Know Topics**: DP (1D/2D), Graphs (BFS/DFS), Heaps, Sliding Window, Tries.
+- **Expectation**: Identify the optimal pattern (e.g., "This is a Sliding Window problem") immediately. Handle edge cases.
+
+### 🧙‍♂️ SDE-3 (Staff/Principal Engineer)
+
+**Focus**: System Design & Advanced Algorithms.
+
+- **Must-Know Topics**: Advanced Graphs (Union-Find, Dijkstra, Topo Sort), System Design (LLD/HLD), Concurrency.
+- **Expectation**: Solve complex problems (e.g., Google's Grid Graphs) and discuss trade-offs in System Design (Scalability, CAP Theorem).
 
 ---
 

@@ -5,7 +5,7 @@
 A **Trie** is a tree-like data structure used to efficiently store and retrieve keys in a dataset of strings.
 It outperforms HashMaps for tasks like **Auto-Complete** or **Spell Checking** because it groups common prefixes.
 
-## 🔑 SDE-2 Pattern: TrieNode Structure
+## 🔑 Key Interview Pattern: TrieNode Structure
 
 - **Structure**: Each Node contains an array `children[26]` (for lowercase English) and a boolean `isEndOfWord`.
 - **Traversal**: Moving from Node to `node.children[char - 'a']` is basically consuming one character of the string.

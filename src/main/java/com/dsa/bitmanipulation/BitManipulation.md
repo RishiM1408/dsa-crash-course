@@ -8,7 +8,7 @@
 - **Performance**: Bitwise operations are faster than arithmetic.
 - **Unique Properties**: especially **XOR** (`^`).
 
-## 🔑 SDE-2 Pattern: XOR Properties
+## 🔑 Key Interview Pattern: XOR Properties
 
 XOR is the most common bitwise tool in interviews.
 Properties:

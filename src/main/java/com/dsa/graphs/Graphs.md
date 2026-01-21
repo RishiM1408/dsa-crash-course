@@ -8,9 +8,9 @@ Key traversal algorithms:
 - **BFS** (Shortest Path in unweighted).
 - **DFS** (Exhaustive search/Cycle detection).
 
-## 🔑 SDE-2 Pattern: Union-Find (Disjoint Set)
+## 🔑 Key Interview Pattern: Union-Find (Disjoint Set)
 
-While standard DFS/BFS is fine for "Is there a path?", **Union-Find** is the SDE-2 weapon for "Dynamic Connectivity" or "Counting Components" efficiently.
+While standard DFS/BFS is fine for "Is there a path?", **Union-Find** is the preferred tool for "Dynamic Connectivity" or "Counting Components" efficiently.
 
 - **Operations**: `find(x)`, `union(x, y)`.
 - **Optimizations**: Path Compression + Union by Rank -> nearly **O(1)** (Inverse Ackermann function).
@@ -39,7 +39,7 @@ See [NumberOfProvinces.java](NumberOfProvinces.java) for the implementation.
 **Topological Sort** is a linear ordering of vertices in a Directed Acyclic Graph (DAG) such that for every directed edge `u -> v`, vertex `u` comes before `v`.
 It is impossible if the graph has a cycle.
 
-## 🔑 SDE-2 Pattern: Kahn's Algorithm (BFS)
+## 🔑 Key Interview Pattern: Kahn's Algorithm (BFS)
 
 While DFS can do Topo Sort, **Kahn's Algorithm** is more intuitive and easier to implement for cycle detection using an **Indegree Array**.
 

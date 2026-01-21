@@ -5,7 +5,7 @@
 A **Deque** (Double-Ended Queue) allows insertion/deletion from both ends.
 A **Monotonic Queue** maintains elements in a specific order (increasing or decreasing) by removing elements that violate the property when a new element is added.
 
-## 🔑 SDE-2 Pattern: Decreasing Deque for Sliding Window Max
+## 🔑 Key Interview Pattern: Decreasing Deque for Sliding Window Max
 
 To find the maximum in a sliding window in **O(n)** time:
 

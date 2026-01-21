@@ -5,7 +5,7 @@
 **Heaps** (Priority Queues) are binary trees that maintain the property: `Parent` is always smaller (Min-Heap) or larger (Max-Heap) than children. Good for "Get Min/Max" in O(1).
 **Intervals** problems involve dealing with overlapping time ranges, often requiring sorting by start time.
 
-## 🔑 SDE-2 Pattern: Greedy Priority Queue
+## 🔑 Key Interview Pattern: Greedy Priority Queue
 
 Whenever you need to "process tasks by priority" or "merge items continuously", think **Heap**.
 

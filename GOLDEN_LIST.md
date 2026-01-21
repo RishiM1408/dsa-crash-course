@@ -1,4 +1,4 @@
-# The Golden List: SDE-2 Pattern Review
+# The Golden List: SDE Interview Pattern Review
 
 A consolidated review of all 16 patterns covered in this crash course, with critical edge cases.
 

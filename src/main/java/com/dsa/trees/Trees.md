@@ -3,9 +3,9 @@
 ## 🧠 Theory High-Level
 
 **Trees** are hierarchical structures with a Root node and children. **Tries** (Prefix Trees) are specialized trees for storing strings, optimizing prefix lookups.
-SDE-2 interviews focus heavily on **DFS** (Depth First Search) and **BFS** (Breadth First Search) variants.
+SDE interviews focus heavily on **DFS** (Depth First Search) and **BFS** (Breadth First Search) variants.
 
-## 🔑 SDE-2 Pattern: BST Properties & DFS
+## 🔑 Key Interview Pattern: BST Properties & DFS
 
 For Binary Search Trees (BST), the key property is: `Left.Val < Root.Val < Right.Val`.
 
@@ -38,7 +38,7 @@ Finding the Lowest Common Ancestor (LCA) changes depending on the tree type:
 - **BST**: Use property `L < Root < R`. Time O(h).
 - **Generic Binary Tree**: No property to guide us. Must visit **every node** in worst case. Time O(n).
 
-## 🔑 SDE-2 Pattern: Post-Order Traversal
+## 🔑 Key Interview Pattern: Post-Order Traversal
 
 We need to determine if `p` or `q` exists in the subtrees.
 

@@ -5,9 +5,9 @@
 Arrays provide **O(1) random access** based on index, which is efficient for lookups when the index is known. However, inserting or deleting elements (except at the end) takes **O(n)** time because subsequent elements must be shifted.
 **Hashing** (HashMaps/HashSets) uses a hash function to map keys to indices (buckets), allowing for **O(1) average time complexity** for insertion, deletion, and lookup. It trades memory space for speed.
 
-## 🔑 SDE-2 Pattern: Prefix Sums & Difference Arrays
+## 🔑 Key Interview Pattern: Prefix Sums & Difference Arrays
 
-While simple hashing handles frequency counting (e.g., Two Sum, Anagrams), SDE-2 interviews often test **Prefix Sums**.
+While simple hashing handles frequency counting (e.g., Two Sum, Anagrams), Technical interviews often test **Prefix Sums**.
 
 - **Concept**: Precompute the cumulative sum of the array up to each index.
 - **Power**: Allows calculating the sum of any subarray range `[i, j]` in **O(1)** time using the formula: `Sum(i, j) = PrefixSum[j] - PrefixSum[i-1]`.

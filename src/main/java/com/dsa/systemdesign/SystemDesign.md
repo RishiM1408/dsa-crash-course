@@ -2,7 +2,7 @@
 
 ## 🧠 Theory High-Level
 
-**System Design** in SDE-2 interviews often tests your ability to combine multiple data structures to achieve optimal time complexity for specific operations.
+**System Design** in interviews often tests your ability to combine multiple data structures to achieve optimal time complexity for specific operations.
 An **LRU (Least Recently Used) Cache** is a cache eviction policy where we discard the least recently used items first.
 
 To achieve **O(1)** operations for both `get` and `put`, we need:
@@ -10,7 +10,7 @@ To achieve **O(1)** operations for both `get` and `put`, we need:
 1.  **Fast Lookups**: HashMap.
 2.  **Fast Ordering Updates**: Doubly Linked List (to move items to the front/back in O(1)).
 
-## 🔑 SDE-2 Pattern: HashMap + Doubly Linked List
+## 🔑 Key Interview Pattern: HashMap + Doubly Linked List
 
 - **HashMap**: Stores `Key -> Node`. This gives us O(1) access to any node in the linked list.
 - **Doubly Linked List**: Maintains the order of elements.

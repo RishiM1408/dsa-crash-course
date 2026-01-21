@@ -5,7 +5,7 @@
 **Two Pointers** use two indices to traverse a data structure (usually sorted) to find a pair/range satisfying a condition.
 **Sliding Window** is a specific two-pointer technique for finding subarrays (contiguous) that meet a constraint. Instead of re-calculating the entire window, we maintain a valid state and simply **add** the new element on the right and **remove** the old element from the left.
 
-## 🔑 SDE-2 Pattern: Dynamic Sliding Window
+## 🔑 Key Interview Pattern: Dynamic Sliding Window
 
 For harder problems, the window size isn't fixed.
 
