@@ -2,6 +2,7 @@
   <h3>Project Views</h3>
   <img src="https://komarev.com/ghpvc/?username=RishiM1408-dsa-crash-course&label=Project%20Views&color=0e75b6&style=flat" alt="Project Views" />
 </div>
+
 # DSA Crash Course (SDE-1/SDE-2/SDE-3)
 
 Welcome to the **High-Intensity DSA Crash Course**. This repository is designed to teach you the most critical interview patterns for SDE-1, SDE-2, and SDE-3 roles in a compressed format.
